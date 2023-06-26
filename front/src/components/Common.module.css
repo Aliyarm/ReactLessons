@@ -1,0 +1,24 @@
+.sub-menu {
+	top: calc(100% + 10px);
+	display: none;
+	animation: opacity 0.4s;
+}
+
+.open .sub-menu {
+	display: block;
+}
+
+.sub-menu > li {
+	margin-bottom: 2px;
+	text-align: left;
+}
+
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
